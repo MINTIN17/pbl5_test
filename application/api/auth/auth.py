@@ -82,5 +82,8 @@ def register():
         print(f"Error: {e}")
         return jsonify({'success': False, 'error': str(e)})
 
+@authBP.post("/login")
+def hay():
+    return "mintinnnn"
 
 
